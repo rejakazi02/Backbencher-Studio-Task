@@ -1,0 +1,12 @@
+User Features:
+    - User Registration
+    - Password Less Login: Otp -> Facebook -> Google
+    - Change Password Less Login to Password Login
+    - Reset Password
+    - Cart List
+    - Order List with Different Order Status
+    - Profile Update
+    - Order Track with Timeline
+    - User Transaction Dashboard
+    - Rating
+    - Review

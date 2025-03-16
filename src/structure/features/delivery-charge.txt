@@ -1,0 +1,5 @@
+Delivery Charge Features:
+    - Inside Dhaka
+    - Outside Dhaka
+    - Minimum Order Amount
+    - Timestamps

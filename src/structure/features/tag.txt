@@ -1,0 +1,5 @@
+Tag Features:
+    - Slug with Unique and No Conflict
+    - Priority
+    - Status Control
+    - Timestamps

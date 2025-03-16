@@ -1,0 +1,6 @@
+Sub Category Features:
+    - Slug with Unique and No Conflict
+    - Image
+    - Priority
+    - Status Control
+    - Timestamps

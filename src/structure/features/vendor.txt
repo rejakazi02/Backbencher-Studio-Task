@@ -1,0 +1,14 @@
+Vendor Features:
+    - Registration
+    - Login
+    - Forget Password
+    - Change Password
+    - Profile Update
+    - Shop Info Customize
+    - Shop Banners
+    - Rating
+    - Total Reviews
+    - Total Products
+    - Vendor wise Shop Category
+    - Vendor wise Shop Products
+    - Followers

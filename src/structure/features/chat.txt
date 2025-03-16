@@ -1,0 +1,6 @@
+Chat Features:
+    - Conversion Create on Start
+    - Shop Name wise Chat Title
+    - Latest Message
+    - Unread Message
+    - Timestamps

@@ -1,0 +1,22 @@
+Product Features:
+    - Slug with Unique and No Conflict
+    - Sku Unique (Optional)
+    - Multiple Tags
+    - 3 Layer Category: Category -> Sub Category -> Child Category
+    - Brand (Optional)
+    - Multiple Images with String Array
+    - Specification in Details (Optional)
+    - Description with Html Editor
+    - Single Price without Variations
+    - Multiple Variations
+    - Quantity Stock Track
+    - Vendor Information
+    - Sold Count
+    - Views Count
+    - Rating Count
+    - Review Count
+    - Rating with 5 Layer: 1 Star -> 2 Star -> 3 Star -> 4 star -> 5 Star
+    - Status Control
+    - Seo
+    - Timestamps
+

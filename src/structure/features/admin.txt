@@ -1,0 +1,9 @@
+Admin Features:
+    - Create Admin
+    - Login
+    - Forget Password
+    - Change Password
+    - Profile Update
+    - Role - Super Admin -> Admin -> Editor
+    - Admin Permission -> Add, Edit, Delete
+    - Role Base Menu Access

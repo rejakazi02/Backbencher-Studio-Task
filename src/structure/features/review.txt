@@ -1,0 +1,8 @@
+Review Features:
+    - User Info
+    - Product Info with Variation
+    - Review Comment
+    - Rating
+    - Date
+    - Reply by Vendor
+    - Status Control

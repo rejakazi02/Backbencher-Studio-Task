@@ -1,0 +1,22 @@
+{
+  "_id": "64e5d3912805a3dcd84d9f8c",
+  "readOnly": false,
+  "name": "Reja",
+  "username": "superadmin",
+  "password": "******",
+  "phoneNo": "01630630899",
+  "email": "reja.info@gmail.com",
+  "gender": "male",
+  "hasAccess": true,
+  "role": "super_admin",
+  "permissions": [
+    "create",
+    "edit",
+    "delete",
+    "get"
+  ],
+  "registrationAt": "2023-08-23",
+  "lastLoggedIn": "2023-11-19T11:22:51.230Z",
+  "createdAt": "2023-08-23T09:38:25.181Z",
+  "updatedAt": "2023-11-19T02:41:51.232Z"
+}

@@ -1,0 +1,19 @@
+Order Features:
+    - Unique Order No
+    - User Shipping Information
+    - Payment Info
+    - Discount Info
+    - Payment Type
+    - Payment Status
+    - Checkout Date & Time
+    - Note
+    - User
+    - Packages
+    - Vendor wise auto Package
+    - Separate Package Control by Separate Vendor
+    - Package with Track & Timeline
+    - Order Item without variation
+    - Order Item with variation
+    - Order Status Control
+    - Delivery Charge
+    - Discount

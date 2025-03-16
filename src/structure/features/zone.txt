@@ -1,0 +1,6 @@
+Zone Features:
+    - Division Wise
+    - Area Wise
+    - Priority
+    - Status Control
+    - Timestamps

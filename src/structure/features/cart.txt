@@ -1,0 +1,11 @@
+Cart Features:
+    - Add to Cart
+    - Increment / Decrement Quantity
+    - Remove from Cart
+    - Cart Status View on Product Details
+    - Cart with Variation
+    - Cart without Variation
+    - Change Variation from Cart
+    - Cart Sub Total
+    - Cart Discount
+    - Cart Grand Total

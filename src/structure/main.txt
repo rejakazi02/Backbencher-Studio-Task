@@ -1,0 +1,191 @@
+*------->> Admin Panel Features List <<-------*
+
+- Admin Manage:
+    - Create
+    - Edit
+    - Delete
+    - Change Password
+    - Access Control
+    - Role
+    - Permission
+    - Pagination
+    - Multiple Select
+    - Bulk Actions
+    - Search with: Name, username, phone number, email
+    - Filter with: Role, Access
+    - Sort With: Created At, Updated At, Last Login
+    - Bulk Export Data
+
+- Product Listing:
+    - Add
+    - Edit
+    - Delete
+    - Pagination
+    - Multiple Images
+    - Multiple Select
+    - Bulk Actions
+    - Search with: Name, Category, Brand
+    - Filter with: Category, Brand, Sub Category, Vendor,
+    - Sort With: Created At, Updated At, Ratings, Views, Sold
+    - Bulk Export Data
+
+- Category Listing:
+    - Add
+    - Edit
+    - Delete
+    - Pagination
+    - Single Image
+    - Multiple Select
+    - Bulk Actions
+    - Search with: Name
+    - Filter with: Status
+    - Sort With: Created At, Updated At, Priority
+    - Bulk Export Data
+    - Featured Control
+
+- Sub Category Listing:
+    - Add
+    - Edit
+    - Delete
+    - Pagination
+    - Single Image
+    - Multiple Select
+    - Bulk Actions
+    - Search with: Name
+    - Filter with: Status
+    - Sort With: Created At, Updated At, Priority
+    - Bulk Export Data
+
+- Child Category Listing:
+    - Add
+    - Edit
+    - Delete
+    - Pagination
+    - Single Image
+    - Multiple Select
+    - Bulk Actions
+    - Search with: Name
+    - Filter with: Status
+    - Sort With: Created At, Updated At, Priority
+    - Bulk Export Data
+
+- Brand Listing:
+    - Add
+    - Edit
+    - Delete
+    - Pagination
+    - Single Image
+    - Multiple Select
+    - Bulk Actions
+    - Search with: Name
+    - Filter with: Status
+    - Sort With: Created At, Updated At, Priority
+    - Bulk Export Data
+    - Featured Control
+
+- Tag Listing:
+    - Add
+    - Edit
+    - Delete
+    - Pagination
+    - Multiple Select
+    - Bulk Actions
+    - Search with: Name
+    - Filter with: Status
+    - Sort With: Created At, Updated At, Priority
+    - Bulk Export Data
+
+Product Rating & Review:
+    - List
+    - Review Comment
+    - Rating
+    - Date
+    - Delete
+    - Status Control
+
+*------->> Vendor Panel Features List <<-------*
+
+- Account & Shop
+    - Registration
+    - Login
+    - Forget Password
+    - Change Password
+    - Profile Update
+    - Shop Info Customize
+    - Shop Banners
+    - Rating
+    - Total Reviews
+    - Total Products
+    - Vendor wise Shop Category
+    - Vendor wise Shop Products
+    - Followers
+
+Product Rating & Review:
+    - List
+    - Review Comment
+    - Rating
+    - Date
+    - Reply
+
+
+*------->> Customer Panel Features List <<-------*
+
+- Cart:
+    - Add
+    - Remove
+    - Quantity Control
+    - No Duplicate Cart
+    - Without Variation
+    - With Variation
+    - Discount View
+    - Sub Total
+
+- Order:
+    - Checkout
+    - Unique Order No
+    - User Shipping Information
+    - Payment Info
+    - Discount Info
+    - Payment Type
+    - Payment Status
+    - Checkout Date & Time
+    - Note
+    - Packages
+    - Vendor wise auto Package
+    - Separate Package Control by Separate Vendor
+    - Package with Track & Timeline
+    - Order Item without variation
+    - Order Item with variation
+    - Order Status Control
+    - Delivery Charge
+    - Discount
+
+Account:
+    - User Registration
+    - Password Less Login: Otp -> Facebook -> Google
+    - Change Password Less Login to Password Login
+    - Reset Password
+    - Cart List
+    - Order List with Different Order Status
+    - Profile Update
+    - Order Track with Timeline
+    - User Transaction Dashboard
+    - Rating
+    - Review
+
+Product Rating & Review:
+    - User Info
+    - Product Info with Variation
+    - Review Comment
+    - Rating
+    - Date
+    - Vendor Reply
+
+Address:
+    - Division
+    - Area
+    - Zone
+    - Address Type
+    - Select Default
+    - Full Address
+    - Auto Name & Phone Number

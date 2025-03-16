@@ -1,0 +1,86 @@
+Category:
+    - No Dependency
+
+Brand:
+    - No Dependency
+
+Tag:
+    - No Dependency
+
+User:
+    - No Dependency
+
+Admin:
+     - No Dependency
+
+Division:
+    - No Dependency
+
+Area:
+    - Division
+
+Zone:
+    - Division
+    - Area
+
+Address:
+    - Division
+    - Area
+    - Zone
+
+SubCategory:
+    - Category
+
+ChildCategory:
+    - Category
+    - SubCategory
+
+DeliverCharge:
+    - No Dependency
+
+Product:
+    - Category
+    - SubCategory
+    - ChildCategory
+    - Tag
+    - Review
+    - Order
+    - Vendor
+
+Cart:
+    - Product
+    - User
+
+Order:
+    - Product
+    - User
+    - Vendor
+    - Address
+    - DeliveryCharge
+
+Review:
+    - User
+    - Product
+    - Vendor
+
+Vendor:
+     - Review
+     - Product
+     - Follower
+
+Chat:
+    - Vendor
+    - User
+    - Message
+
+Message:
+    - Chat
+    - User
+    - Vendor
+    - Product
+
+
+
+
+
+

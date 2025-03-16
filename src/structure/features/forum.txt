@@ -1,0 +1,25 @@
+Forum Features:
+   
+    - Profile
+        - name
+        - profileImage
+        - coverImage
+        - address
+        - jobType
+        - Followers
+        - followings
+        - socialSite
+          
+    - Timeline
+        - posts
+           - no of like
+           - reply
+           - postTime
+           - postTopic
+
+    - Topic
+        - postTopic
+
+    - Member
+        - every user of forum
+

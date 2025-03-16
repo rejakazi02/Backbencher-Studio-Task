@@ -1,0 +1,5 @@
+Area Features:
+    - Division Wise
+    - Priority
+    - Status Control
+    - Timestamps

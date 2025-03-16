@@ -1,0 +1,7 @@
+Category Features:
+    - Slug with Unique and No Conflict
+    - Image
+    - Featured Control
+    - Priority
+    - Status Control
+    - Timestamps
