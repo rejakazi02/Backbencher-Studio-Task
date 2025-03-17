@@ -49,7 +49,7 @@ import {
   UpdateBlogDto,
 } from './dto/blog.dto';
 import { AdminAuthGuard } from '../admin/guards/admin-auth.guard';
-
+import { RateLimit } from 'nestjs-rate-limiter';
 
 @Controller('blog')
 @ApiTags('blog Api')
@@ -69,7 +69,13 @@ export class BlogController {
    * deleteBlogById()
    * deleteMultipleBlogById()
    */
+
   @Post('/add')
+  @RateLimit({
+    keyPrefix: 'addBlog', // Unique key for this endpoint
+    points: 5, // Number of requests
+    duration: 60, // Per 60 seconds (1 minute)
+  })
   @ApiHeader({
     name: 'administrator',
     description: ADMIN_AUTH_TOKEN_DEV,
@@ -78,11 +84,7 @@ export class BlogController {
   @ApiBearerAuth()
   @ApiCreatedResponse({ type: PayloadObjectDto })
   @UsePipes(ValidationPipe)
-  @AdminMetaRoles(
-    AdminRoles.SUPER_ADMIN,
-    AdminRoles.SUPER_ADMIN,
-    AdminRoles.EDITOR,
-  )
+  @AdminMetaRoles(AdminRoles.SUPER_ADMIN, AdminRoles.EDITOR)
   @UseGuards(AdminRolesGuard)
   @AdminMetaPermissions(AdminPermissions.CREATE)
   @UseGuards(AdminPermissionGuard)
@@ -107,7 +109,6 @@ export class BlogController {
     type: PayloadObjectArrayDto,
   })
   @UsePipes(ValidationPipe)
-  
   async addBlogByVendor(
     @Req() req: any,
     @Body()
@@ -129,7 +130,6 @@ export class BlogController {
     type: PayloadObjectArrayDto,
   })
   @UsePipes(ValidationPipe)
-  
   async addBlogByUser(
     @Req() req: any,
     @Body()
@@ -194,7 +194,6 @@ export class BlogController {
   @ApiOkResponse({
     type: PayloadObjectArrayDto,
   })
-  
   async getAllBlogsByVendor(
     @Req() req: any,
     @Body() filterBlogDto: FilterAndPaginationBlogDto,
@@ -273,7 +272,6 @@ export class BlogController {
     type: PayloadObjectArrayDto,
   })
   @UsePipes(ValidationPipe)
-  
   async updateBlogByVendor(
     @Param('id', MongoIdValidationPipe) id: string,
     @Body() updateBlogDto: UpdateBlogDto,
@@ -295,7 +293,6 @@ export class BlogController {
     type: PayloadObjectArrayDto,
   })
   @UsePipes(ValidationPipe)
-  
   async updateBlogByUser(
     @Param('id', MongoIdValidationPipe) id: string,
     @Body() updateBlogDto: UpdateBlogDto,
@@ -376,7 +373,6 @@ export class BlogController {
     type: PayloadObjectArrayDto,
   })
   @UsePipes(ValidationPipe)
-  
   async deleteBlogByVendor(
     @Param('id', MongoIdValidationPipe) id: string,
     @Query('checkUsage') checkUsage: boolean,
@@ -397,7 +393,6 @@ export class BlogController {
     type: PayloadObjectArrayDto,
   })
   @UsePipes(ValidationPipe)
-  
   async deleteBlogByUser(
     @Param('id', MongoIdValidationPipe) id: string,
     @Query('checkUsage') checkUsage: boolean,
